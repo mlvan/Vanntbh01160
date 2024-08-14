@@ -1,0 +1,48 @@
+SaleID,ProductID,ProductName,Category,Price,Quantity,CustomerID,Date,TotalAmount,GroupID,GroupName,MarketTrendID,MarketTrendName
+1,1,Phone X1,Phones,750.00,2,1,2024-07-01,1500.00,1,Group A,1,Increased Demand
+2,2,Computer Y3,Computers,1600.00,1,2,2024-07-02,1600.00,1,Group A,2,New Product Launch
+3,3,Television Z2,Televisions,1200.00,1,3,2024-07-03,1200.00,2,Group B,3,Seasonal Discount
+4,4,Phone X2,Phones,800.00,3,4,2024-07-04,2400.00,2,Group B,4,Technological Advancement
+5,5,Computer Y1,Computers,1100.00,1,5,2024-07-05,1100.00,3,Group C,5,Market Saturation
+6,6,Television Z1,Televisions,900.00,2,6,2024-07-06,1800.00,3,Group C,6,Increased Competition
+7,7,Phone X3,Phones,900.00,1,7,2024-07-07,900.00,4,Group D,7,Changing Consumer Preferences
+8,8,Computer Y2,Computers,1400.00,1,8,2024-07-08,1400.00,4,Group D,8,Global Economic Trends
+9,9,Television Z3,Televisions,1500.00,3,9,2024-07-09,4500.00,5,Group E,9,Environmental Concerns
+10,10,Phone X4,Phones,1000.00,2,10,2024-07-10,2000.00,5,Group E,10,Regulatory Changes
+11,11,Computer Y3,Computers,1600.00,1,11,2024-07-11,1600.00,6,Group F,11,Supply Chain Disruptions
+12,12,Television Z1,Televisions,900.00,2,12,2024-07-12,1800.00,6,Group F,12,Technological Innovation
+13,13,Phone X1,Phones,750.00,1,13,2024-07-13,750.00,7,Group G,13,Online Shopping Growth
+14,14,Computer Y2,Computers,1400.00,2,14,2024-07-14,2800.00,7,Group G,14,Social Media Influence
+15,15,Television Z2,Televisions,1200.00,1,15,2024-07-15,1200.00,8,Group H,15,Health and Wellness Trends
+16,16,Phone X2,Phones,800.00,3,16,2024-07-16,2400.00,8,Group H,16,Remote Work Culture
+17,17,Computer Y1,Computers,1100.00,1,17,2024-07-17,1100.00,9,Group I,17,Smart Home Integration
+18,18,Television Z3,Televisions,1500.00,2,18,2024-07-18,3000.00,9,Group I,18,Artificial Intelligence
+19,19,Phone X3,Phones,900.00,1,19,2024-07-19,900.00,10,Group J,19,Digital Transformation
+20,20,Computer Y4,Computers,1800.00,2,20,2024-07-20,3600.00,10,Group J,20,E-commerce Expansion
+21,21,Television Z1,Televisions,900.00,1,21,2024-07-21,900.00,11,Group K,21,Privacy and Security Concerns
+22,22,Phone X4,Phones,1000.00,2,22,2024-07-22,2000.00,11,Group K,22,Consumer Data Protection
+23,23,Computer Y3,Computers,1600.00,1,23,2024-07-23,1600.00,12,Group L,23,Augmented Reality
+24,24,Television Z2,Televisions,1200.00,2,24,2024-07-24,2400.00,12,Group L,24,Virtual Reality
+25,25,Phone X1,Phones,750.00,1,25,2024-07-25,750.00,13,Group M,25,Blockchain Technology
+26,26,Computer Y2,Computers,1400.00,2,26,2024-07-26,2800.00,13,Group M,26,Internet of Things (IoT)
+27,27,Television Z3,Televisions,1500.00,1,27,2024-07-27,1500.00,14,Group N,27,5G Technology Rollout
+28,28,Phone X2,Phones,800.00,3,28,2024-07-28,2400.00,14,Group N,28,Mobile Payment Growth
+29,29,Computer Y1,Computers,1100.00,1,29,2024-07-29,1100.00,15,Group O,29,Big Data Analytics
+30,30,Television Z1,Televisions,900.00,2,30,2024-07-30,1800.00,15,Group O,30,Cloud Computing Adoption
+31,31,Phone X3,Phones,900.00,1,31,2024-07-31,900.00,16,Group P,31,Machine Learning Applications
+32,32,Computer Y4,Computers,1800.00,2,32,2024-08-01,3600.00,16,Group P,32,Robotics and Automation
+33,33,Television Z2,Televisions,1200.00,1,33,2024-08-02,1200.00,17,Group Q,33,Green Technology Initiatives
+34,34,Phone X4,Phones,1000.00,2,34,2024-08-03,2000.00,17,Group Q,34,Renewable Energy Expansion
+35,35,Computer Y3,Computers,1600.00,1,35,2024-08-04,1600.00,18,Group R,35,Electric Vehicles (EVs)
+36,36,Television Z1,Televisions,900.00,2,36,2024-08-05,1800.00,18,Group R,36,Sustainable Manufacturing
+37,37,Phone X1,Phones,750.00,1,37,2024-08-06,750.00,19,Group S,37,Circular Economy Practices
+38,38,Computer Y2,Computers,1400.00,2,38,2024-08-07,2800.00,19,Group S,38,Supply Chain Transparency
+39,39,Television Z3,Televisions,1500.00,1,39,2024-08-08,1500.00,20,Group T,39,Corporate Social Responsibility (CSR)
+40,40,Phone X2,Phones,800.00,3,40,2024-08-09,2400.00,20,Group T,40,Consumer Behavior Shifts
+41,41,Computer Y1,Computers,1100.00,1,41,2024-08-10,1100.00,21,Group U,41,Remote Learning Trends
+42,42,Television Z1,Televisions,900.00,2,42,2024-08-11,1800.00,21,Group U,42,Virtual Events and Conferences
+43,43,Phone X3,Phones,900.00,1,43,2024-08-12,900.00,22,Group V,43,Telemedicine Adoption
+44,44,Computer Y4,Computers,1800.00,2,44,2024-08-13,3600.00,22,Group V,44,Healthcare Technology Innovations
+45,45,Television Z2,Televisions,1200.00,1,45,2024-08-14,1200.00,23,Group W,45,Fitness and Wellness Tech
+46,46,Phone X4,Phones,1000.00,2,46,2024-08-15,2000.00,23,Group W,46,Smart Cities Initiatives
+47,
