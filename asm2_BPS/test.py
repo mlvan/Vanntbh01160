@@ -1,21 +1,36 @@
 import pandas as pd
-
-# Đọc tệp CSV vào DataFrame
-df = pd.read_csv('ten_tep.csv')
-
-# Hiển thị dữ liệu
+# Read CSV file into DataFrame
+df = pd.read_csv('file_name.csv')
+# Display data
 print(df)
 
 
-print(df.info())  # Kiểm tra số lượng hàng, cột và kiểu dữ liệu của từng cột
-# Điền giá trị 0 cho tất cả các ô bị thiếu
+print(df.info())  # Check the number of rows, columns and data type of each column
+
+
+
+# Fill all missing cells with 0
 df_filled = df.fillna(0)
-# Điền giá trị trung bình của cột cho các ô bị thiếu trong từng cột
+# Fill in the average value of the column for the missing cells in each column
 df_filled = df.fillna(df.mean())
-# Điền giá trị median (trung vị) của cột
+# Fill in the median value of the column
 df_filled = df.fillna(df.median())
-# Điền giá trị mode (giá trị xuất hiện nhiều nhất)
+# Fill in the mode value (the value that appears most often)
 df_filled = df.fillna(df.mode().iloc[0])
+
+
+import pandas as pd
+# Step 1: Read the CSV file into a DataFrame
+df = pd.read_csv('your_file.csv')
+# Step 2: Remove duplicate rows
+df_cleaned = df.drop_duplicates()
+# Optional: Remove duplicates based on specific columns
+# df_cleaned = df.drop_duplicates(subset=['column1', 'column2'])
+# Step 3: Save the cleaned DataFrame back to a CSV file
+df_cleaned.to_csv('cleaned_file.csv', index=False)
+# Optional: Check the number of rows before and after cleaning
+print(f"Original number of rows: {len(df)}")
+print(f"Number of rows after removing duplicates: {len(df_cleaned)}")
 
 
 import pandas as pd

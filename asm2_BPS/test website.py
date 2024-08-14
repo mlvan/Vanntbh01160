@@ -38,13 +38,10 @@ future_predictions = model.predict(future_data[['DayOfYear', 'Month']])
 
 # Plot historical and predicted data
 plt.figure(figsize=(12, 6))
-
 # Plot historical data
 plt.plot(data['Date'], data['TotalAmount'], label='Historical Data', color='blue')
-
 # Plot future predictions
 plt.plot(future_dates, future_predictions, label='Future Predictions', color='red', linestyle='--')
-
 plt.xlabel('Date')
 plt.ylabel('Total Amount')
 plt.title('Growth Projection')
